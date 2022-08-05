@@ -1,0 +1,51 @@
+.input-container{
+    border:1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.input-container label{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.input-container label span{
+    padding: 10px;
+}
+
+.select{
+    position: absolute;
+    width: 20px;
+    top:45px;
+    left:-10px;
+}
+
+
+.cleanUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cleanup, #changeLayout,#addNewRow,#removeRow{
+    padding: 4px 10px;
+    border-radius: 1rem;
+    margin: 0 10px;
+}
+#test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.textarea{
+    width: 90%;
+    height: 200px
+}
+
+.row{
+    border: 1px solid blue;
+    margin: 20px;
+    padding: 10px;
+}
